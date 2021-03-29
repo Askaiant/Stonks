@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stonks</string>
+    <string name="stonk_description">Ovo je kalkulator dionica</string>
+    <string name="stonk_ammount">Koliko si dionica kupio</string>
+    <string name="stonk_button">Izracunaj</string>
+    <string name="stonk_buy_value">Kupovna cijena</string>
+    <string name="stonk_curr_value">Prodajna cijena</string>
+    <string name="stonk_instructions">Unesi vrijednosti dolje i vidjet ces svoj profit/gubitak</string>
+    <string name="stonk_total">Tvoja zarada</string>
+    <string name="stonk_empty">Unesi neke vrijednosti</string>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stonks</string>
+    <string name="stonk_description">これはストンクス計算機です</string>
+    <string name="stonk_buy_value">価値を買う</string>
+    <string name="stonk_ammount">どれくらいのストンクを購入しましたか？</string>
+    <string name="stonk_curr_value">価値を売る</string>
+    <string name="stonk_total">あなたの収入</string>
+    <string name="stonk_button">計算する</string>
+    <string name="stonk_instructions">以下の値を入力してください。収益（または損失）が表示されます。</string>
+    <string name="stonk_empty">いくつかの値を入力してください</string>
+</resources>

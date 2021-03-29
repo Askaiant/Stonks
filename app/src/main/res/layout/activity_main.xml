@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            android:gravity="center"
+            android:text="@string/stonk_description"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            android:typeface="sans" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:text="@string/stonk_instructions"
+            android:textSize="20sp"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/buy_value"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right|center_vertical"
+            android:hint="@string/stonk_buy_value"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/stonk_ammount"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right|center_vertical"
+            android:hint="@string/stonk_ammount"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:typeface="sans" />
+
+        <EditText
+            android:id="@+id/sell_value"
+            android:layout_width="match_parent"
+            android:layout_height="59dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="right|center_vertical"
+            android:hint="@string/stonk_curr_value"
+            android:inputType="numberDecimal"
+            android:maxLength="16"
+            android:padding="10dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25sp"
+            android:typeface="sans"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/calculate_stonks"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="15dp"
+            android:text="@string/stonk_button" />
+
+        <TextView
+            android:id="@+id/stonks_res"
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center|center_vertical"
+            android:layout_margin="10dp"
+            android:textStyle="bold"
+            app:autoSizeTextType="uniform" />
+
+        <com.madrapps.pikolo.RGBColorPicker
+            android:id="@+id/colorPicker"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center|clip_vertical" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
