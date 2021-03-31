@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Stonks</string>
+    <string name="stonk_description">This is the stonks calculator ey</string>
+    <string name="stonk_buy_value">Buy value ey</string>
+    <string name="stonk_ammount">How much stonk did you buy ey?</string>
+    <string name="stonk_curr_value">Sell value ey</string>
+    <string name="stonk_total">Your earnings ey</string>
+    <string name="stonk_button">Calculate ey</string>
+    <string name="stonk_instructions">Please input the values below and you will see your earnings (or losses) ey</string>
+    <string name="stonk_empty">Please enter some values ey</string>
+</resources>
